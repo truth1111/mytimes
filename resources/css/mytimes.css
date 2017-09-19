@@ -1,4 +1,8 @@
-header.h4 {color: mediumaquamarine;}
+header {color: mediumaquamarine;}
 header {display:flex; font-weight: bold; font-size: 14px; font-family: Verdana; align-items: center;}
 .navbar {display: inline-block; }
-.logo{}
+#container {display: flex;}
+.large {width:630px;}
+.medium {width: 300px;}
+.small {width: 240px;}
+.bar {align-items: flex-start;background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")}
