@@ -1,2 +1,4 @@
-h4 {color: mediumaquamarine; }
-nav {color: black;}
+header.h4 {color: mediumaquamarine;}
+header {display:flex; font-weight: bold; font-size: 14px; font-family: Verdana; align-items: center;}
+.navbar {display: inline-block; }
+.logo{}
