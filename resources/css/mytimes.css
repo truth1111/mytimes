@@ -1,8 +1,28 @@
-header {color: mediumaquamarine;}
-header {display:flex; font-weight: bold; font-size: 14px; font-family: Verdana; align-items: center;}
-.navbar {display: inline-block; }
-#container {display: flex;}
-.large {width:630px;}
-.medium {width: 300px;}
-.small {width: 240px;}
-.bar {align-items: flex-start;background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")}
+body {margin: 0 auto 78px auto; padding-top: 116px;}
+.container1 {position: fixed; color: mediumaquamarine; display:flex; font-weight: bold; font-size: 14px; font-family: Verdana; align-items: center;}
+.navbar {display: inline-block;}
+.container {display: flex; }
+.large {width:630px;  display: flex; flex-direction: column; margin-right: 32px; }
+.medium {width: 300px; display:flex; flex-direction: column; margin-right: 32px;  }
+.small {width: 240px; display: flex; flex-direction: column; margin-right: 32px; }
+p {font-family: Georgia;
+  font-size: 17px;
+  color: black;}
+  {font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;}
+  h4 {font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;}
+  h5 {font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;}
+  .bar {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png"); height: 300px; text-align: left; }
+  .earth {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png"); margin-top: 16px; width: 300px; text-align: center;}
+  .memory {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png"); margin-top: 16px; width: 300px; text-align:center;}
+.cat {background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png"); text-align: center; height: 300px;}
+.stories1, .stories2 {display: flex; justify-content: space-between;}
+.burger, .orca {margin-top: 16px;}
